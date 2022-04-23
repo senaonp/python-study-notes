@@ -172,6 +172,14 @@ print(r)
 >> 1
 ```
 -----
+## is item in list
+```
+items = ['a','b','c','d','e']
+print(True) if ('d' in items) else print(False)
+
+>> True
+```
+-----
 ## is instance of type
 ```
 isinstance([1,2,3], list)
