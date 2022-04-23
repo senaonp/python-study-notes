@@ -104,7 +104,7 @@ print(r)
 ## split by delimiter
 ```
 letters = 'a b c d e f'
-r letters.split(' ')
+r = letters.split(' ')
 print(r)
 
 >> ['a', 'b', 'c', 'd', 'e', 'f']
@@ -170,3 +170,44 @@ print(r)
 
 >> 1
 ```
+-----
+## is instance of type
+```
+isinstance([1,2,3], list)
+
+>> True
+```
+
+```
+isinstance({'a': 1, 'b': 2}, dict)
+
+>> True
+```
+-----
+## get index of item in list
+```
+items = ['a','b','c','d','e']
+r = items.index('c')
+print(r)
+
+>> 2
+```
+-----
+## get indices of item in list
+```
+items = [1,2,3,2,4,6,3,6,9]
+r = [i for i in range(len(items)) if items[i] == 3]
+print(r)
+
+>> [2, 6]
+```
+-----
+## iterate by index
+```
+a = ['a','b','c','d','e']
+for i in range(len(a)):
+  print(i, end=' ')
+  
+>> 0 1 2 3 4
+```
+-----
