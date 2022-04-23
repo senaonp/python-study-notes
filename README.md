@@ -204,10 +204,21 @@ print(r)
 -----
 ## iterate by index
 ```
-a = ['a','b','c','d','e']
-for i in range(len(a)):
+items = ['a','b','c','d','e']
+for i in range(len(items)):
   print(i, end=' ')
   
 >> 0 1 2 3 4
 ```
 -----
+## get column in 2d matrix
+```
+items = [
+  [1,2],
+  [3,4],
+  [5,6],
+  ]
+r = [i[0] for i in items]
+  
+>> [1, 3, 5]
+```
