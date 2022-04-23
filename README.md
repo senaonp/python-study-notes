@@ -1,4 +1,5 @@
 # python-study-notes
+reference to do operations on iterable objects
 
 ## get substring
 ```
