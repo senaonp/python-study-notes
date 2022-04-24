@@ -241,9 +241,7 @@ print(r)
 
 >> 'ABCDE'
 ```
-```
-
-```
+-----
 ## lowercase string
 ```
 letters = "ABCDE"
@@ -251,4 +249,14 @@ r = letters.lower()
 print(r)
 
 >> 'abcde'
+```
+-----
+## get unique list items
+```
+items = [1,2,2,3,3,3]
+r = []
+for i in items: i not in r and r.append(i)
+print(r)
+
+>> [1, 2, 3]
 ```
