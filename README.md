@@ -216,7 +216,7 @@ print(r)
 items = ['a','b','c','d','e']
 for i in range(len(items)):
   print(i, end=' ')
-  
+
 >> 0 1 2 3 4
 ```
 -----
@@ -228,6 +228,27 @@ items = [
   [5,6],
   ]
 r = [i[0] for i in items]
-  
+print(r)
+
 >> [1, 3, 5]
+```
+-----
+## uppercase string
+```
+letters = "abcde"
+r = letters.upper()
+print(r)
+
+>> 'ABCDE'
+```
+```
+
+```
+## lowercase string
+```
+letters = "ABCDE"
+r = letters.lower()
+print(r)
+
+>> 'abcde'
 ```
