@@ -1,5 +1,13 @@
 # python-study-notes
-reference to do operations on iterable objects
+reference to do basic operations on iterable objects
+
+| [get substring](#get-substring) | [add item](#add-item) | [remove item](#remove-item) | [filter list](#filter-list)  | [map list](#map-list) |
+| :-: | :-: | :-: | :-: | :-: |
+| [split by delimiter](#split-by-delimiter) | [join with delimiter](#join-with-delimiter) | [reverse list](#reverse-list) | [sort list](#sort-list) | [get max](#get-max) |
+| [get min](#get-min) | [is item in list](#is-item-in-list) | [is instance of type](#is-instance-of-type) | [get index of item in list](#get-index-of-item-in-list) | [get indices of item in list](#get-indices-of-item-in-list) | 
+| [iterate by index](#iterate-by-index) | [get column in 2d matrix](#get-column-in-2d-matrix) | [uppercase string](#uppercase-string) | [lowercase string](#lowercase-string) | [get unique list items](#get-unique-list-items) |
+
+-----
 
 ## get substring
 ```
@@ -34,23 +42,6 @@ print(r)
 >> "bcde"
 ```
 -----
-## remove item
-```
-items = [1,2,3,4,5]
-del items[0:2]
-print(items)
-
->> [3, 4, 5]
-```
-
-```
-items = [1,2,3,4,5]
-items.pop(2)
-print(items)
-
->> [1, 2, 4, 5]
-```
------
 ## add item
 ```
 items = [1,2,3,4,5]
@@ -66,6 +57,23 @@ items.insert(2, 'r')
 print(items)
 
 >> [1, 2, 'r', 3, 4, 5]
+```
+-----
+## remove item
+```
+items = [1,2,3,4,5]
+del items[0:2]
+print(items)
+
+>> [3, 4, 5]
+```
+
+```
+items = [1,2,3,4,5]
+items.pop(2)
+print(items)
+
+>> [1, 2, 4, 5]
 ```
 -----
 ## filter list
